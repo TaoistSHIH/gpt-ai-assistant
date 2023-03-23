@@ -48,5 +48,5 @@ const config = Object.freeze({
   SERPAPI_LOCATION: env.SERPAPI_LOCATION || 'Taiwan',
   SERPAPI_LANG: env.SERPAPI_LANG || 'lang_zh-TW',
 });
-
+ 
 export default config;
