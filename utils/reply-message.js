@@ -9,7 +9,7 @@ const replyMessage = ({
   if (config.APP_ENV !== 'production') return { replyToken, messages };
   return reply({ replyToken, messages });
    
- sheet.appendRow([replyToken,userMessage,userid,returnmessage[0].text]);
+ sheet.appendRow([replyToken,Message]);
 
 };
 
